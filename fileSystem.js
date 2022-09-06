@@ -3,7 +3,11 @@ const path = require('path');
 const glob = require("glob")
 const sharp = require('sharp');
 
-let files = //path - this is a bit rough and distructively changes the files in the directory. Checker could be used to improve this process, and sharp clone could be used to create a new directory. Sharp has a variety of tools, from bulk resizing and cropping to individual image manipulation tools (eg. make alll the files in a directory greyscale, orange tinted.).
+let files = 
+
+//path - this is a bit rough and distructively changes the files in the directory. 
+//Checker could be used to improve this process, and sharp clone could be used to create a new directory. 
+//Sharp has a variety of tools, from bulk resizing and cropping to individual image manipulation tools (eg. make all the files in a directory greyscale, orange tinted.).
 
 const checker = (file)=> {
   return file.split(".").pop();
